@@ -389,3 +389,31 @@ a{
 		width:80px;
 	}
 }
+@media screen and (max-width: 400px){
+	.title>p{
+		width:130px;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+	.mobile>p{
+		width:130px;
+	}
+	.disc>p{
+		width:130px;
+	}
+}
+@media screen and (max-width: 350px){
+	.title>p{
+		width:80px;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+	.mobile>p{
+		width:80px;
+	}
+	.disc>p{
+		width:80px;
+	}
+}
